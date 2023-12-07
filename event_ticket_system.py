@@ -18,6 +18,6 @@ def load_third_party(engine, file_path_csv):
     
     return
 
-engine = create_engine('mysql+mysqlconnector://root:password@localhost:3306/event_sales')
+engine = create_engine('mysql+mysqlconnector://username:password@hostname:port/db_name')
 file_path_csv = '/Users/meetapandit/DE_Bootcamp/python_data_pipeline_miniproject/third_party_sales_1.csv'
 load_third_party(engine, file_path_csv)
